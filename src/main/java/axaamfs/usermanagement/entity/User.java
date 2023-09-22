@@ -9,17 +9,23 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
+    //Encapsulation
 
     private String username;
+    //Encapsulation
 
     private String password;
+    //Encapsulation
 
     private String name;
+    //Encapsulation
 
     private String token;
+    //Encapsulation
 
     @Column(name = "token_expired_at")
     private Long tokenExpiredAt;
+    //Encapsulation
 
     public User() {
     }

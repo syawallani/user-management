@@ -1,0 +1,21 @@
+#AXA AMFS USER MANAGEMENT API
+
+Explain 4 OOP Pillars in a brief manner: Inheritance, Polymorphism, Encapsulation, Abstraction.
+
+#Inheritance
+inheritance atau pewarisan, memungkinkan class child mewarisi properti dari class parent.
+Salah satu penerapannya pada class UserRepository inherit ke class JpaReposity.
+Class UserRepository dapat menggunakan properti yang ada pada class JpaRepository, juga parent class yang di inherit JpaRepository
+salah satunya ListCrudRepository.
+
+#Polymorphism
+Polimorphism / multi bentuk. salah satu penerapan menggunakan method overriding.
+
+#Encapsulation
+Encapsulation, bertujuan untuk pengendalian hak akses terhadap suatu objek.
+Penerapannya pada project ini, pemberian hak akses private pada field dalam suatu class.
+jadi untuk mengakses field tersebut dipaksa untuk menggunakan getter atau setter yang ada pada class tersebut.
+
+#Abstraction
+Encapsulation, bertujuan untuk memodelkan kelas berdasarkan behavior nya.
+Dalam project ini, penerapannya pada pembuatan interface service. Tujuannya untuk membuat kontrak dari class yang mengimplementasikannya.

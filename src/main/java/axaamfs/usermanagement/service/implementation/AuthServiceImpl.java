@@ -20,9 +20,12 @@ public class AuthServiceImpl implements AuthService {
 
     @Autowired
     private UserRepository userRepository;
+    //Encapsulation
+
 
     @Autowired
     private ValidationService validator;
+    //Encapsulation
 
     @Override
     @Transactional

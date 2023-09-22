@@ -8,7 +8,7 @@ import axaamfs.usermanagement.entity.User;
 import org.springframework.data.domain.Page;
 
 public interface UserService {
-
+//Abstraction
     void register(RegisterUserRequest request);
 
     UserResponse get(User user);
